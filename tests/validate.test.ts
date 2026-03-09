@@ -1,5 +1,5 @@
 import path from 'path';
-import { validate } from '../src/index';
+import { validate, LEGACY_TAG_MAP } from '../src/index';
 
 const f = (name: string) => path.resolve(__dirname, 'fixtures', name);
 
@@ -364,7 +364,6 @@ describe('validate() — legacy tag names via tags override', () => {
     // Use the legacy map but point at the constrained fixture — the legacy map
     // uses @min for both string and number, so constraints won't fire since the
     // fixture file uses @minLength (ts-to-zod). Result: no specErrors, no constraint errors.
-    const { LEGACY_TAG_MAP } = require('../src/tag-map');
     const result = validate({
       interfaceFile: constrainedInterface,
       typeName: 'ConstrainedConfig',

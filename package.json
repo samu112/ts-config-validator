@@ -2,6 +2,16 @@
   "name": "ts-config-validator",
   "version": "0.1.0",
   "description": "Validate YAML/JSON config files against TypeScript interfaces with JSDoc constraints. No code generation — constraints live in JSDoc comments, validation runs at test time via the TS compiler API.",
+  "author": "Sámuel Léránt (https://github.com/samu112)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/samu112/ts-config-validator.git"
+  },
+  "homepage": "https://github.com/samu112/ts-config-validator#readme",
+  "bugs": {
+    "url": "https://github.com/samu112/ts-config-validator/issues"
+  },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "bin": {
@@ -43,8 +53,6 @@
     "schema",
     "jest"
   ],
-  "author": "Sámuel Léránt (https://github.com/samu112)",
-  "license": "MIT",
   "peerDependencies": {
     "typescript": ">=4.7.0"
   },

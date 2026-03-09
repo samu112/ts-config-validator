@@ -64,8 +64,8 @@ const result = validate({
 let hasErrors = false;
 
 if (result.specErrors.length > 0) {
-  console.error('
-❌  Interface specification errors:');
+  console.error(`
+❌  Interface specification errors:`);
   result.specErrors.forEach((e) => console.error(`   ${e}`));
   hasErrors = true;
 }
