@@ -1,4 +1,4 @@
-# ts-config-validator
+# ts-config-validator [![npm version](https://img.shields.io/npm/v/ts-config-validator.svg)](https://www.npmjs.com/package/ts-config-validator)
 
 > Validate YAML/JSON config files against a TypeScript interface — with JSDoc constraints, no code generation, no separate schema file.
 
