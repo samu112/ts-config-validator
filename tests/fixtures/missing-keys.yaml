@@ -1,0 +1,4 @@
+name: MyApp
+# port is intentionally missing
+debug: true
+environment: dev

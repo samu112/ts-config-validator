@@ -1,0 +1,7 @@
+username: alice
+port: 3000
+id: 550e8400-e29b-41d4-a716-446655440000
+currencyCode: EUR
+startDate: '2024-06-01'
+createdAt: '2024-06-01T12:00:00Z'
+scheduledDate: '2025-03-15'

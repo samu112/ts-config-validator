@@ -1,0 +1,6 @@
+{
+  "name": "MyApp",
+  "port": 8080,
+  "debug": true,
+  "environment": "prod"
+}

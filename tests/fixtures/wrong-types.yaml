@@ -1,0 +1,4 @@
+name: 42            # should be string
+port: 'not-a-number' # should be number
+debug: maybe        # should be boolean
+environment: production  # not in the enum (allowed: dev, prod, staging)
